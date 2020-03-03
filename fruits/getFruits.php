@@ -2,7 +2,7 @@
 /**
  * Returns the list of policies.
  */
-require 'connection.php';
+require '../connection.php';
 
 $fruits = [];
 $sql = "SELECT id, name, sugarInFruit, acidity FROM fruits";
